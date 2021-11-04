@@ -179,7 +179,7 @@ def classify_files(args) -> list[str]:
         # make directory
         try:
             if args.dryrun == False:
-                os.path.makedir(f['dir'])
+                os.makedirs(f['dir'])
             else:
                 print("mkdir -p {}".format(f['dir']))
         except:
