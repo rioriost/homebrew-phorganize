@@ -4,6 +4,12 @@ Organize the photos and the videos using embedded meta data in the files
 It can run only on macOS because of dependency on 'mdls' command.
 Please use this script at your own risk after careful reading the help and the descriptions below.
 
+## Install
+```
+brew tap rioriost/phorganize
+brew install rioriost/phorganize/homebrew-phorganize
+```
+
 ## Usage
 ```
 usage: phorganize [-h] [--verbose] [--move] [--rename] [--recursive] [--camera] [--output OUTPUT] [--lower] [--upper] [--dryrun] [--tzdelta TZDELTA] input
