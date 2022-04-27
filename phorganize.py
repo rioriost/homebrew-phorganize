@@ -17,6 +17,9 @@ except ModuleNotFoundError:
 except ImportError:
     sys.exit("Please install libmagic, 'brew install libmagic'\n")
 
+# Apple Silicon
+magic.Magic(magic_file="/opt/homebrew/Cellar/libmagic")
+
 # definition of targeted mime types
 # This list means what mime types I tested with
 targeted_mime_types = {}
