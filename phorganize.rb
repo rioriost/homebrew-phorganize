@@ -2,9 +2,9 @@ class Phorganize < Formula
   include Language::Python::Virtualenv
 
   desc "Phorganize is a python script to organize photos and videos using embedded meta data in the files."
-  homepage "https://github.com/rioriost/phorganize/"
-  url "https://files.pythonhosted.org/packages/b3/75/842a3b1a4269b47a2ca68d4db07f08d725043e1166c65706fd973e157b45/phorganize-0.1.1.tar.gz"
-  sha256 "d8f2674e1a0171d016a516ca64f4a381e74e11f121680506063a073768f8ef8e"
+  homepage "https://github.com/rioriost/homebrew-phorganize/"
+  url "https://files.pythonhosted.org/packages/47/24/f5578804ef253b18a1006c68e7c4ba9638ee7ee72cef2e035700cdb29add/phorganize-0.1.2.tar.gz"
+  sha256 "3465bbb140e146ebc98a0bea004def2611f3abf84251a9465cc1388d7b624e76"
   license "MIT"
 
   depends_on "python@3.11"
