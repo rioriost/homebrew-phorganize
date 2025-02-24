@@ -1,6 +1,7 @@
 # Phorganize
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
 
 ## Overview
 
@@ -143,6 +144,9 @@ If multiple files will have the same new name, phorganize will add a sequence nu
 Movie files do not have camera model information, so they are organized in the '(null)' directory.
 
 ## Release Notes
+
+### 0.1.2 Release
+* Updated for the dependencies.
 
 ### 0.1.1 Release
 * Fixed a title of README.md
