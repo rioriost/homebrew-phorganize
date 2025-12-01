@@ -3,7 +3,7 @@ name = "phorganize"
 authors = [
     {name = "Rio Fujita", email = "rifujita@microsoft.com"},
 ]
-version = "0.1.1"
+version = "0.1.3"
 license = {file = "LICENSE"}
 description = "Phorganize is a python script to organize photos and videos using embedded meta data in the files."
 readme = "README.md"
@@ -35,4 +35,5 @@ exclude = [
   "phorganize.rb",
   "uv.lock",
   "dist/.DS_Store",
+  ".envrc",
 ]

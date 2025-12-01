@@ -145,6 +145,9 @@ Movie files do not have camera model information, so they are organized in the '
 
 ## Release Notes
 
+### 0.1.3 Release
+* Security update
+
 ### 0.1.2 Release
 * Updated for the dependencies.
 
